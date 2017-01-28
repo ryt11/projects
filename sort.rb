@@ -19,7 +19,7 @@ def sort(numbers)
   numbers
 end
 
-def InsertionSort(numbers)
+def insertion_sort(numbers)
   n = numbers.length
   sorted = []
   sorted << numbers[0]
@@ -39,6 +39,6 @@ end
 sorter = BubbleSort.new
 a = [33, 55, 13, 46, 87, 42, 10, 34, 43, 56]
 
-puts sorter.InsertionSort(a)
+puts sorter.insertion_sort(a)
 puts sorter.sort(a)
 binding.pry
