@@ -1,4 +1,4 @@
-
+require 'pry'
 def card_validation(card_num)
 valid = false
 nums = card_num.split('')
@@ -56,8 +56,9 @@ else
   puts "Account number #{card_num} validation unsuccessful."
 end
 end
+binding.pry
 
-card_validation("5541808923795240")
+card_validation("342804633855673")
 
 
 #Valid Account numbers: 5541808923795240, 4024007136512380, 6011797668867828
