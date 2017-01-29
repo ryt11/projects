@@ -40,7 +40,7 @@ mutated.each do |mut|
   end
 end
 
-sum = 0 + card_num[-1].to_i
+sum = card_num[-1].to_i
 second_mutation.each do |num|
   sum += num
 
