@@ -26,7 +26,7 @@ def insertion_sort(numbers)
   (n - 1).times do |i|
     sorted << numbers[i + 1]
     sorted.each_with_index do |num, index|
-      if sorted[i + 1] < num
+      if  num > sorted[i + 1] 
         sorted[index], sorted [i + 1] = sorted[i + 1], sorted[index]
       end
     end
